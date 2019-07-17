@@ -1,6 +1,7 @@
 import winston from 'winston';
 const LOGS_FILE = 'logs/server.log';
 
+// content log
 winston.configure({
 	transports: [
 		new winston.transports.Console({
